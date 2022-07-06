@@ -9,11 +9,11 @@ function Header() {
   return (
     <div className="header">
       <IconButton>
-        <PersonIcon fontSize="large" className="header__icon" />
+        <PersonIcon fontSize="medium" className="header__icon" />
       </IconButton>
       <img className="header__logo" src={tinder} alt="" />
       <IconButton>
-        <ForumIcon fontSize="large" className="header__icon" />
+        <ForumIcon fontSize="medium" className="header__icon" />
       </IconButton>
     </div>
   );
